@@ -22,17 +22,24 @@
   --gray-600: #E2E4E9;
 
   /* FONTES */
-  --font-family-asap: 'Asap', Sans serif;
-  --h1: 700 56px/120% var(--font-family-asap);
-  --h2: 700 24px/120% var(--font-family-asap);
-  --h3: 700 16px/120% var(--font-family-asap);
-
-  --font-famil-incon: 'Inconsolata', Sans serif;
-  --p: 400 20px/120% var(--font-famil-incon);
-
+  
+  --fw-bold: 700;
+  --fw-base: 400;
+  
+  /* MAVEN */
   --font-family-maven: 'Maven Pro', Sans serif;
-  --text-md: 400 16px/140% var(--font-family-maven);
-  --text-sm: 400 14px/140% var(--font-family-maven);
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  
+  /* Inconsolata */
+  --font-family-incon: 'Inconsolata', Sans serif;
+  --fs-base: 1.25rem;
+  
+  /* Asap */
+  --font-family-asap: 'Asap', Sans serif;
+  --fs-sm-lg: 1rem;
+  --fs-md-lg: 1.5rem;
+  --fs-lg: 3.5rem;
   
 
 }

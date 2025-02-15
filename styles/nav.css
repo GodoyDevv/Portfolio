@@ -1,0 +1,22 @@
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-bottom: 3.5rem;
+}
+
+#tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-family: var(--font-family-maven);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-md);
+  color: var(--gray-500);
+}
+
+#html {
+  color: var(--red);
+}
