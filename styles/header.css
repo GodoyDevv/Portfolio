@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  text-align: center;
+}
+
+#back {
+
+
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#profile {
+  display: block;
+  text-align: center;
+  margin-top: 7.5rem;
+}
+
+#profileimg {
+  margin-bottom: 3.5rem;
+}
+
+#picture {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+
+}
+
+#icon {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+
+  position: absolute;
+  left: 48%;
+  top: 30%;
+  bottom: 10.94%;
+
+}
+
+#profile h3 {
+
+
+}
+
+
