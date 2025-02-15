@@ -1,0 +1,63 @@
+.works {
+  background-color: var(--gray-100);
+  padding: 5.5rem 0 7.5rem;
+  text-align: center;
+}
+
+  
+  .subtitle {
+    & h3 {
+      font-family: var(--font-family-incon);
+      font-weight: var(--fw-base);
+      font-size: var(--fs-base);
+      color: var(--red);
+      margin-bottom: 0.5rem;
+    }
+  
+    & h2 {
+      font-family: var(--font-family-asap);
+      font-weight: var(--fw-bold);
+      font-size: var(--fs-md-lg);
+      color: var(--gray-600);
+  
+      margin-bottom: 3.5rem;
+  
+    }
+
+  }
+
+
+.topicos {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#topic {
+  width: 17.5rem;
+  height: 9.6875rem;
+  padding: 1.125rem;
+  text-align: left;
+  border: 1px var(--gray-200) solid;
+  border-radius: 0.75rem;
+
+  & img {
+    margin-bottom: 1.25rem;
+  }
+
+  & h2 {
+    font-family: var(--font-family-asap);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm-lg);
+    color: var(--gray-600);
+
+    margin-bottom: 0.5rem;
+  }
+
+  & p {
+    font-family: var(--font-family-maven);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-sm);
+    color: var(--gray-500);
+  }
+}

@@ -1,38 +1,35 @@
 header {
   background-image: url(/assets/images/Background_Intro.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
 #profile {
   display: block;
   text-align: center;
   
+
+  
 }
 
 #profileimg {
+  display: block;
   margin-bottom: 3.5rem;
 }
 
 #picture {
-  width: 5.5rem;
-  height: 5.5rem;
+  padding: 0.25rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 9999px;
   object-fit: cover;
-  margin-top: 7rem;
+  margin-top: 6rem;
 
+
+  border: 2.5px solid var(--red);
+  border-radius: 999px;
+  
 }
 
-#icon {
-  width: 2rem;
-  height: 2rem;
-  border: none;
-
-  position: absolute;
-  left: 48%;
-  top: 30%;
-  bottom: 10.94%;
-
-}
 
 #profile {
   & h3 {
@@ -73,7 +70,7 @@ header {
 #arrow {
   width: 2rem;
   height: 2rem;
-  margin-bottom: 3.625rem;
+  margin-bottom: 7rem;
 }
 }
 
